@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Validation</title>
+</head>
+<body>
+    <form class="form">
+        <div class="form-items form-email">
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email">
+            <p class="error"></p>
+        </div>
+
+        <div class="form-items form-zip">
+            <label for="zip">Zip Code:</label>
+            <input type="text" name="zip" id="zip-code">
+            <p class="error"></p>
+        </div>
+
+        <div class="form-items form-country">
+            <label for="country">Country:</label>
+            <input type="text" name="country" id="country">
+            <p class="error"></p>
+        </div>
+
+        <div class="form-items form-password">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+            <p class="error"></p>
+        </div>
+
+        <div class="form-items form-confirm">
+            <label for="confirm-pass">Confirm Password:</label>
+            <input type="password" name="confirm-pass" id="confirm-pass">
+            <p class="error"></p>
+        </div>
+        
+        <button class="btn" type="submit">Submit</button>
+
+    </form>
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>
